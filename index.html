@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Web concept page for the National Geographic media realised as part of a project for the web integration course of the DUT MMI of Champs-sur-Marne.">
+    <link rel="shortcut icon" type="image/png" href="/Images/favicon.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Ice</title>
+</head>
+
+<body>
+    <header class="header" data-aos="fade-down" data-aos-offset="200" data-aos-delay="750" data-aos-duration="1000"
+        data-aos-once="true">
+        <a href="#" class="header_logo">
+            <!-- TITRE SVG -->
+            <svg class="loading" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="-500px" y="0px" width="235px" height="20px"
+                viewBox="0 0 250 120" enable-background="new 0 0 235 120" xml:space="preserve">
+                <defs>
+                    <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+                        <path fill="#11CCEE"
+                            d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z" />
+                    </pattern>
+
+                    <text id="text" transform="matrix(1 0 0 1 -8.0684 116.7852)" font-size="161.047">Hex#words</text>
+
+                    <mask id="text_mask">
+                        <use x="0" y="0" xlink:href="#text" opacity="1" fill="#fff" />
+                    </mask>
+                </defs>
+
+                <use x="0" y="0" xlink:href="#text" fill="#fff" />
+
+                <rect class="water-fill" mask="url(#text_mask)" fill="url(#water)" x="-400" y="0" width="1600"
+                    height="120" />
+            </svg>
+        </a>
+
+        <ion-icon name="menu-outline" class="header_toggle" id="nav-toggle"></ion-icon>
+
+        <nav class="nav" id="nav-menu">
+            <div class="nav_content bd-grid">
+                <ion-icon name="close-outline" class="nav_close" id="nav-close"></ion-icon>
+
+                <div class="nav_perfil">
+                    <div class="nav_img">
+                        <a href="#">
+                            <!-- TITRE SVG -->
+                            <svg class="loading" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="-500px" y="0px" width="235px"
+                                height="20px" viewBox="0 0 250 120" enable-background="new 0 0 235 120"
+                                xml:space="preserve">
+                                <defs>
+                                    <pattern id="water2" width=".25" height="1.1"
+                                        patternContentUnits="objectBoundingBox">
+                                        <path fill="#11CCEE"
+                                            d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z" />
+                                    </pattern>
+
+                                    <text id="text" transform="matrix(1 0 0 1 -8.0684 116.7852)"
+                                        font-size="161.047">Hex#words</text>
+
+                                    <mask id="text_mask2">
+                                        <use x="0" y="0" xlink:href="#text" opacity="1" fill="#fff" />
+                                    </mask>
+                                </defs>
+
+                                <use x="0" y="0" xlink:href="#text" fill="#fff" />
+
+                                <rect class="water-fill" mask="url(#text_mask2)" fill="url(#water2)" x="-400" y="0"
+                                    width="1600" height="120" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#accueil" class="nav_link active">HOME</a></li>
+                        <li class="nav_item"><a href="#articles" class="nav_link">ARTICLES</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
+                    </ul>
+                </div>
+                <div class="nav_social">
+                    <a href="https://www.linkedin.com/in/jules-mesnil-2573871b9/" target="blank" rel="noopener"
+                        class="nav_social-icon">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://github.com/ElCurdente" target="blank" rel="noopener" class="nav_social-icon">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- SECTION ACCUEIL -->
+    <section class="accueil" id="accueil">
+        <h3 data-aos="fade" data-aos-delay="150" data-aos-duration="1000">ENVIRONNEMENT</h3>
+        <h2 data-aos="fade" data-aos-delay="300" data-aos-duration="1000">THE TIP OF THE</h2>
+        <h1 data-aos="fade" data-aos-delay="450" data-aos-duration="1000">
+            <span class="txt-type" data-wait="3000" data-words='["ICE", "#1CE"]'></span>
+        </h1>
+        <h3 data-aos="fade" data-aos-delay="600" data-aos-duration="1000">EARTH LOST 28 TRILLION TONNES OF ICE IN 23
+            YEARS</h3>
+
+        <div class="bottom" data-aos="fade-up" data-aos-offset="0" data-aos-delay="750" data-aos-duration="1000"
+            data-aos-once="true">
+            <a href="#articles" class="scroll_link">SCROLL DOWN</a>
+            <a href="#articles" class="scroll_link_mobile"><span></span></a>
+        </div>
+    </section>
+
+    <!-- SECTION ARTICLES -->
+    <section id="articles" class="articles">
+
+        <!-- TITRE SVG -->
+        <svg class="loading2 titles2 title-articles" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="330px" height="35px" viewBox="0 0 300 150"
+            enable-background="new 0 0 300 150" xml:space="preserve">
+            <defs>
+                <pattern id="water3" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+                    <path fill="#11CCEE"
+                        d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z" />
+                </pattern>
+
+                <text id="text3" y="5" transform="matrix(1 0 0 1 -8.0684 116.7852)" font-size="150.047">ARTICLES</text>
+
+                <mask id="text_mask3">
+                    <use x="0" y="0" xlink:href="#text3" opacity="1" fill="#fff" />
+                </mask>
+            </defs>
+
+            <use id="textuse3" x="0" y="0" xlink:href="#text3" fill="#fff" />
+
+            <rect class="water-fill titre" mask="url(#text_mask3)" fill="url(#water3)" x="-400" y="0" width="1600"
+                height="120" />
+        </svg>
+
+        <!-- ARTICLE 1 -->
+        <div class="card card1" data-aos="fade" data-aos-offset="0" data-aos-delay="150" data-aos-duration="1000"
+            data-aos-once="true">
+            <div class="card-content">
+                <h2 class="card-title">Antarctica: 40 years to act</h2>
+                <p class="card-body">According to a new study, the "rapid and unstoppable" rise in sea levels due to
+                    melting ice shelves and glaciers can only be avoided if nations join forces to reduce their
+                    emissions. And soon.</p>
+                <a href="https://www.nationalgeographic.fr/environnement/fonte-des-glaces-en-antarctique-40-ans-pour-agir"
+                    class="card-button" target="blank" rel="noopener">Read the article</a>
+                <a href="https://unsplash.com/@andersjilden" class="credit-card credit1" target="blank" rel="noopener">
+                    <ion-icon name="camera-outline"></ion-icon>Anders Jildén
+                </a>
+            </div>
+        </div>
+
+        <!-- ARTICLE 2 -->
+        <div class="card card2" data-aos="fade" data-aos-offset="0" data-aos-delay="300" data-aos-duration="1000"
+            data-aos-anchor=".card1" data-aos-once="true">
+            <div class="card-content">
+                <h2 class="card-title">Polar bear: risk of extinction</h2>
+                <p class="card-body">According to a new study, it is likely that almost all polar bear populations will
+                    collapse by 2100 if we fail to keep global warming below 2°C.</p>
+                <a href="https://www.nationalgeographic.fr/animaux/2020/08/les-ours-polaires-pourraient-totalement-disparaitre-avant-2100"
+                    class="card-button" target="blank" rel="noopener">Read the article</a>
+                <a href="https://unsplash.com/@hansjurgen007" class="credit-card credit2" target="blank" rel="noopener">
+                    <ion-icon name="camera-outline"></ion-icon>Hans-Jurgen Mager
+                </a>
+            </div>
+        </div>
+
+        <!-- ARTICLE 3 -->
+        <div class="card card3" data-aos="fade" data-aos-offset="0" data-aos-delay="450" data-aos-duration="1000"
+            data-aos-anchor=".card1" data-aos-once="true">
+            <div class="card-content">
+                <h2 class="card-title">Greenland: seals under threat</h2>
+                <p class="card-body">The unprecedented presence of harp seals on the shore is a sign of the dramatic
+                    effect of climate change on the Far North ice pack and its wildlife.</p>
+                <a href="https://www.nationalgeographic.fr/animaux/les-phoques-du-groenland-menaces-par-la-disparition-de-la-banquise"
+                    class="card-button" target="blank" rel="noopener">Read the article</a>
+                <a href="https://unsplash.com/@rthiemann" class="credit-card credit3" target="blank" rel="noopener">
+                    <ion-icon name="camera-outline"></ion-icon>Robert Thiemann
+                </a>
+            </div>
+        </div>
+
+        <!-- ARTICLE 4 -->
+        <div class="card card4" data-aos="fade" data-aos-offset="0" data-aos-delay="600" data-aos-duration="1000"
+            data-aos-anchor=".card1" data-aos-once="true">
+            <div class="card-content">
+                <h2 class="card-title">Arctic: disappearing ice pack</h2>
+                <p class="card-body">The ice pack could disappear by 2035. "Even if drastic measures are put in place,
+                    it is unlikely, if not impossible, that this trend can be reversed."</p>
+                <a href="https://www.nationalgeographic.fr/environnement/2020/08/la-banquise-arctique-pourrait-disparaitre-dici-2035"
+                    class="card-button" target="blank" rel="noopener">Read the article</a>
+                <a href="https://unsplash.com/@jeremybishop" class="credit-card credit4" target="blank" rel="noopener">
+                    <ion-icon name="camera-outline"></ion-icon>Jeremy Bishop
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION ABOUT -->
+    <section id="about" class="about">
+        <div class="grid-about">
+            <!-- TITRE SVG -->
+            <svg class="loading3 titles2 title-about" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="250px" height="35px" viewBox="0 0 250 150"
+                enable-background="new 0 0 250 150" xml:space="preserve">
+                <defs>
+                    <pattern id="water4" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+                        <path fill="#11CCEE"
+                            d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z" />
+                    </pattern>
+
+                    <text id="text4" y="5" transform="matrix(1 0 0 1 -8.0684 116.7852)" font-size="150.047">ABOUT</text>
+
+                    <mask id="text_mask4">
+                        <use x="0" y="0" xlink:href="#text4" opacity="1" fill="#fff" />
+                    </mask>
+                </defs>
+
+                <use id="textuse4" x="0" y="0" xlink:href="#text4" fill="#fff" />
+
+                <rect class="water-fill titre" mask="url(#text_mask4)" fill="url(#water4)" x="-400" y="0" width="1600"
+                    height="120" />
+            </svg>
+            <img src="/Images/About/640x960.webp" alt="" class="img-about" data-aos="fade" data-aos-offset="0"
+                data-aos-delay="150" data-aos-duration="1000" data-aos-anchor=".title-about" data-aos-once="true">
+            <div class="presentation-moi" data-aos="fade" data-aos-offset="0" data-aos-delay="300"
+                data-aos-duration="1000" data-aos-anchor=".title-about" data-aos-once="true">
+                <h2 class="h2-about">Presentation</h2>
+                <p>Hey, my name is Jules Mesnil. I'm currently in my second year of a 2 years university degree
+                    specialising in Multimedia and Internet. In this course, I study web design, audiovisual and web
+                    development with the aim of becoming a front-end developer in the future.</p>
+            </div>
+            <div class="presentation-projet" data-aos="fade" data-aos-offset="0" data-aos-delay="450"
+                data-aos-duration="1000" data-aos-anchor=".title-about" data-aos-once="true">
+                <h2 class="h2-about">The project</h2>
+                <p>Create one or more web pages that will feature the
+                    a hexadecimal code chosen from the
+                    those available on <span><a href="http://c0ffee.surge.sh/" target="blank"
+                            rel="noopener">c0ffe.surge</a></span>. The website must be responsive, developed in mobile
+                    first and compatible with the main browsers. <br>
+                    I chose the word Ice and its hexadecimal code #1CE to create a website design for the National
+                    Geographic media.
+                </p>
+            </div>
+            <div class="credit" data-aos="fade" data-aos-offset="0" data-aos-delay="600" data-aos-duration="1000"
+                data-aos-anchor=".title-about" data-aos-once="true">
+                <h2 class="h2-about">Credits</h2>
+                <p>Images of Iceberg : <span><a href="https://unsplash.com/@anniespratt" target="blank"
+                            rel="noopener">Annie Spratt</a></span></p>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/jules-mesnil-2573871b9/" target="blank" rel="noopener"
+                class="nav_social-icon2" data-aos="fade" data-aos-offset="0" data-aos-duration="1000"
+                data-aos-once="true">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/ElCurdente" target="blank" rel="noopener" class="nav_social-icon2"
+                data-aos="fade" data-aos-offset="0" data-aos-duration="1000" data-aos-once="true">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </div>
+    </section>
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+
+    <!-- IONICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
